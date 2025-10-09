@@ -1,6 +1,6 @@
 [project]
 name = "wajp"
-version = "0.1.0"
+version = "0.2.0"
 description = "Wipe anything without limits"
 readme = "README.md"
 authors = [
@@ -15,7 +15,7 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
-    "mypy>=1.17.1",
-    "pytest>=8.4.1",
-    "ruff>=0.12.11",
+    "mypy>=1.18.2",
+    "pytest>=8.4.2",
+    "ruff>=0.14.0",
 ]
